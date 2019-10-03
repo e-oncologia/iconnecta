@@ -1,0 +1,794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <p>Praca w nocy: jaki ma wpływ na raka?</p>
+
+                                                        <a href="https://mejorsincancer.org/2016/07/21/trabajar-noche-impacto-cancer/" style='color:#21CFAC;'>hiszpański</a>
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #070202; letter-spacing: 1.2px; font-weight: 700;">Praca w nocy<span style='color:#21CFAC;'>:</span> jaki ma wpływ na raka?
+                                                              </h2>
+                                                              
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Melatonina i rytm okołodobowy
+                                                              </h2>
+                                                              <br>
+                                                              <p>Melatonina jest hormonem wydzielanym przez szyszynkę (zlokalizowaną w mózgu), która kontroluje codzienny cykl snu.
+                                                              </p>
+                                                              <br>
+                                                              <p>Stężenie tego hormonu zmienia się w ciągu dnia: jest wyższe w nocy, a jego poziom spada w ciągu dnia.
+                                                              </p>
+                                                                <br>
+                                                                <p>Jednak poziom melatoniny może wahać się u osób pracujących w nocy. Wzrost poziomu melatoniny jest zwykle wytwarzany u tych pracowników z mniejszą intensywnością i później niż u pracowników dziennych.</p>
+                                                               <br>
+                                                               <p>Skok poziomu hormonu melatoniny jest mniej intensywny u pracowników nocnych niż u pracowników dziennych.
+                                                                </p>
+                                                                
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                          <tr>
+                                            <td height='40'></td>
+                                          </tr>
+                                          <tr>
+                                            <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td valign="top" width="40">&nbsp;</td>
+                                                    <td>
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                        <tr>
+                                                          <td height='25'></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            <div class='contentEditableContainer contentTextEditable'>
+                                                              <div class='contentEditable'>
+                                                                
+                                                                <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Nocne zmiany i rak
+                                                                  </h2>
+                                                              <p>Związek pracy na nocne zmiany z rakiem, zwłaszcza rakiem piersi, zaczął interesować zarówno społeczność naukową, jak i społeczeństwo.
+                                                                </p>
+                                                                <br>
+                                                                <p>Dzieje się tak, ponieważ praca w systemie rotacyjnym lub nocnym jest dość powszechna: dotyczy 20% lub więcej spośród populacji krajów uprzemysłowionych.
+                                                                  </p>
+                                                              <br>
+                                                              <p>W 2007 r. Międzynarodowa Agencja Badań nad Rakiem (IARC) stwierdziła, że ​​„praca zmianowa polegająca na zaburzeniach cyklu dobowego jest prawdopodobnie rakotwórcza dla ludzi” (grupa 2A).
+                                                                </p>
+                                                              <h5 style="font-size: 16px; color: #d8c1c1; letter-spacing: 1.2px; font-weight: 700;">Co to znaczy?
+                                                              </h5>
+                                                              <p>Oznacza to, że istnieją dowody na to, że praca zmianowa może wpłynąć na ryzyko zachorowania na raka, chociaż potrzebne są dalsze badania, aby dojść do przekonujących wniosków.</p>
+                                                              <br>
+                                                              <p>Według IARC istnieją wystarczające dowody wynikające z badań na zwierzętach, ale nie u ludzi.
+                                                              </p>
+                                                                <br>
+                                                                <p>Badanie wpływu nocnej zmiany w badaniach epidemiologicznych jest bardziej skomplikowane, niż się wydaje, ponieważ istnieją problemy w jej definicji, w starannym kontrolowaniu czynników zakłócających, jak również w uogólnieniu dla całej populacji ustaleń stwierdzonych wśród przedstawicieli konkretnego zawodu (np. wśród pielęgniarek lub personelu lotniczego).
+                                                                </p>
+                                                                  <br>
+                                                                  <p>Po przeprowadzeniu oceny IARC opublikowano kilka badań, które poszerzają naszą wiedzę na temat możliwego wpływu pracy nocnej na raka piersi.
+                                                                  </p>
+                                                                    <br>
+                                                                    <p>Pomimo, że wydaje się, iż dowody na wpływ pracy na nocnej zmianie wydają się silniejsze w przypadku raka piersi, to ryzyko zachorowania na raka prostaty, raka jelita grubego i przewlekłej białaczki limfatycznej może być również zwiększone przez pracę zmianową, chociaż badania na ludziach są nadal niewystarczające.
+                                                                    </p>
+                                                                      <br>
+                                                                      <p>W przypadku trzech spośród czterech przeprowadzonych metaanaliz  stwierdzono, że ryzyko raka piersi zwiększyło się u pracowników nocnych zmian, podczas gdy wyniki jednej metaanalizy były negatywne.
+                                                                      </p>
+                                                                        <br>
+                                                                        <p>Wzrost ryzyka nie jest bardzo wysoki, ale musimy wziąć pod uwagę, że rak piersi jest najczęstszym nowotworem u kobiet, a praca w systemie zmianowym jest również częstsza u kobiet.
+                                                                        </p>
+                                                                          <br>
+                                                               <p>Oprócz ryzyka zachorowania na raka, praca w nocy może mieć inny wpływ na zdrowie. Efekty krótkoterminowe są stosunkowo łatwe do zbadania i istnieją dość spójne dowody na to, że praca zmianowa zwiększa zmęczenie i ryzyko urazów oraz obniża jakość życia. Jednak możliwe długotrwałe skutki - takie jak powikłania okołociążowe, choroba wieńcowa, cukrzyca, otyłość, zaburzenia żołądkowo-jelitowe itp. - są obecnie mniej jasne.
+                                                              </p>
+                                                                <br>
+                                                                <p>Zgodnie z dowodami eksperymentalnymi istnieją różne mechanizmy, które mogą wyjaśnić skutki pracy zmianowej:
+                                                                </p>
+
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Spadek produkcji melatoniny</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Zmiana funkcji układu odpornościowego i / lub hormonalnego</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Niezgodność między rytmami snu i budzenia się a innymi rytmami, takimi jak trawienie.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Zmiany czynników stylu życia, takich jak konsumpcja tytoniu lub alkoholu, dieta lub aktywność fizyczna.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Spadek produkcji witaminy D.</p>
+                                                                  </td>
+                                                                </tr> 
+                                                              </table>
+                                                              
+                                                        
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  
+
+                                  
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Chronotyp<span style='color:#21CFAC;'>:</span> jesteś skowronkiem, sową czy kolibrem?
+                                                              </h2>
+                                                              <br>
+                                                              <p>Chronotyp jest genetyczną właściwością człowieka, która odzwierciedla jego preferencje i wydajność w odniesieniu do rytmu dobowego.
+                                                                </p>
+                                                              <br>
+                                                              <p>Naukowcy używają porównań do ptaków, aby podzielić ludzi na:
+                                                                </p>
+                                                                <table>
+                                                                    <tr>
+                                                                      <td valign="top">
+                                                                        <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                      </td>
+                                                                      <td>
+                                                                        <p>porannych (skowronki)</p>
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td valign="top">
+                                                                        <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                      </td>
+                                                                      <td>
+                                                                        <p>wieczornych (sowy)</p>
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td valign="top">
+                                                                        <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                      </td>
+                                                                      <td>
+                                                                        <p>nani dzienni, ani nocni (kolibry)</p>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                  <p>Dzięki temu kwestionariuszowi możesz się dowiedzieć, jaki masz chronotyp. Na przykład, zgodnie z tym kwestionariuszem, autorzy tego postu są kolibrami, ponieważ potrzebujemy prawie 1 godziny (Laura) i 30 minut (Manolis) w ciągu każdego dnia.
+                                                                    </p>
+                                                                    <br>
+                                                                    <p>Podejrzewa się, że chronotyp może wpływać na związek między zmianami nocnymi a zdrowiem. Osoby z wzorem wieczorowym mogą lepiej przystosować się do stałych zmian nocnych (bez rotacji), a zatem mogą mieć mniejsze ryzyko zachorowania na raka, chociaż jest to wciąż początkowe stadium badań w tym obszarze.
+                                                                      </p>
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                          <tr>
+                                            <td height='40'></td>
+                                          </tr>
+                                          <tr>
+                                            <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td valign="top" width="40">&nbsp;</td>
+                                                    <td>
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                        <tr>
+                                                          <td height='25'></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            <div class='contentEditableContainer contentTextEditable'>
+                                                              <div class='contentEditable'>
+                                                                <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Co możemy zrobić, aby złagodzić skutki pracy na nocną zmianę?
+                                                                </h2>
+                                                                <br>
+                                                                <p>Eliminacja nocnych zmian jest praktycznie niemożliwa ze względu na zapotrzebowanie społeczne (np. opieka zdrowotna 24 godziny na dobę). Dlatego ważne jest, aby zidentyfikować i wdrożyć takie systemy zmianowe, które minimalizują zaburzenia rytmu okołodobowego.
+                                                                  </p>
+                                                                <br>
+                                                                <p>Istnieje kilka środków, które można zastosować w celu zmniejszenia możliwego negatywnego wpływu nocnych zmian, chociaż dowody naukowe są jeszcze niewystarczające.
+                                                                  </p>
+                                                                  <br>
+                                                                  <p style='color:#21CFAC;'>Pamiętaj, że najważniejszą rzeczą w zapobieganiu nowotworom jest przestrzeganie każdego dnia tych 10 wskazówek. Nie ma sensu podejmować innych działań, jeśli np. nie rzucisz palenia, które jest najczęstszą przyczyną raka.
+                                                                    </p>
+                                                                    <br>
+                                                                 <p>Wydaje się, że rotacje w pracy zmianowej, które polegają na zmianie „do przodu”, to znaczy od rana do nocy są lepsze niż te zaczynające się w nocy i kończące się następnego dnia. Ponadto zaleca się krótkie zmiany, z kilkoma kolejnymi nocami (tylko 1 lub 2), co sprzyja ponownemu dostosowaniu się do rytmu dobowego (chociaż istnieją sprzeczne badania na ten temat). Możesz także zdrzemnąć się po południu pierwszej zmiany nocnej, aby ułatwić adaptację, a także przed ostatnią nocną zmianą.
+                                                                </p>
+                                                                  <br>
+                                                                  <p>Na razie nie zaleca się wykonywania dodatkowych mammografii dla kobiet pracujących w nocy, ponieważ skutki uboczne tych testów przeważają nad możliwymi korzyściami.
+                                                                  </p>
+                                                                    <br>
+                                                                  <p>Nie można też zalecić stosowania suplementów melatoniny, ponieważ chociaż istnieją pewne wyniki badań mogące dawać nadzieje, nadal istnieją badania kliniczne, które oprócz ich skuteczność, pokazują również potencjalne długoterminowe negatywne skutki.
+                                                                  </p>
+                                                                    <br>
+                                                                  <p>Ponieważ większość badań wskazuje na zwiększone ryzyko zachorowania na raka przy długotrwałej (ponad 20-letniej) pracy na zmiany nocne, jeśli wzór ten zostanie potwierdzony, przyszłe działanie zapobiegawcze mogłoby ograniczyć całkowitą liczbę lat, które można przepracować na nocnej zmianie.
+                                                                  </p>
+                                                                    <br>
+                                                                    <p>Istnieją inne sposoby, które mogą pomóc w utrzymaniu wydzielania melatoniny, takie jak: zmniejszenie ilości światła w pomieszczeniach, gdy jest rotacja na zmianie lub zwiększenie jasności światła na stałe zmiany (w celu ułatwienia adaptacji), a nawet wracanie do domu w okularach słonecznych. Jednak wciąż potrzeba więcej badań aby sformułować te zalecenia.
+                                                                    </p>
+  
+                                                              </div>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td height='24'></td>
+                                                        </tr>
+                                                      </table>
+                                                    </td>
+                                                    <td valign="top" width="40">&nbsp;</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <p>Manolis Kogevinas</p>
+                                    <p>Laura Costas</p>
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+                                                              <p style='text-align: center;'><span style='color:#21CFAC;'>Przypisy biograficzne do artykułu:</span></p>
+                                                              <br>
+                                                              <p>International Agency for Research on Cancer. Painting, firefighting and shift work. Lyon: IARC; 2010. p. 9–764.
+                                                                </p>
+                                                              <br>
+                                                              <p>Fritschi L. Shift work and cancer. BMJ 2009;339:b2653.
+                                                                </p>
+                                                                <br>
+                                                                <p>Bonde JP et al. Work at night and breast cancer – report on evidence-based options for preventive actions. Scand J Work Environ Health 2012;38(4):380-390.
+                                                                  </p>
+                                                                  <br>
+                                                              <br>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,780 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <p>Artigo: ÁCIDO PALMITICO E O CANCRO</p>
+
+                                                        <a href="https://mejorsincancer.org/2017/04/18/acido-palmitico-y-cancer/" style='color:#21CFAC;'>em espanhol</a>
+
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Ácido palmítico e o cancro</h2>
+                                                              <br>
+                                                              <p>Recentemente, uma das revistas científicas de maior prestígio publicou um trabalho de cientistas catalães, que é uma excelente contribuição para o conhecimento sobre as células que causam metástase.</p>
+                                                              <br>
+                                                              <p>O processo de desenvolvimento de metástases, por meio do qual algumas células se desprendem do tumor e se implantam noutras partes do corpo, é responsável pela maioria das mortes por cancro. Em resumo, os autores do trabalho mostraram que a proteína CD36 é essencial para o aparecimento e crescimento de metástases. Desenvolveram uma estratégia para bloqueá-la e observaram que, pelo menos em ratos, as gorduras da dieta estão envolvidas na progressão de cancro.</p>
+                                                              <br>
+                                                              <p>Os resultados deste trabalho tiveram ampla repercussão nos media. Curiosamente, embora a descoberta mais relevante seja o conhecimento dos mecanismos moleculares relacionados à metástase, a mensagem mais difundida foi a de que "as gorduras da dieta influenciam o cancro" e, especificamente, destacam o papel do ácido palmítico no desenvolvimento e aparecimento de metástases.</p>
+                                                              <br>
+                                                              <p>Neste artigo, revimos a relevância e o real alcance desta pesquisa, as principais características do ácido palmítico, e analisamos criticamente seus possíveis efeitos sobre a saúde e, especificamente, o seu possível papel na progressão do cancro.</p>
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Resumo da pesquisa sobre células iniciadoras de metástase e o recetor CD36</h2>
+                                                              <br>
+                                                              <p>A pesquisa foi baseada na análise meticulosa de amostras de tecido de pacientes com cancro oral implantados em ratos, que posteriormente desenvolveram cancros orais. Os principais resultados foram os seguintes:</p>
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Os autores identificaram um grupo de células com alta capacidade de desenvolver metástases.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Uma das principais características dessas células é que elas possuem uma grande quantidade da proteína CD36 na sua membrana. Esta proteína é um recetor que permite a passagem de gorduras no interior da célula. A teoria dos autores é que essa gordura fornece a grande quantidade de energia que essas células precisam.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Quando as células com grandes quantidades de CD36 foram transplantadas em tumores que não tinham essa proteína, o subsequente aparecimento de metástase foi observado.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Os Ratos alimentados com dieta rica em gorduras desenvolveram mais metástases e o número e tamanho dessas metástases foi relacionado com o número de células com CD36. O mesmo resultado foi observado em células tumorais expostas ao ácido palmítico.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>O tratamento com dois anticorpos capazes de neutralizar a proteína CD36 inibiu completamente o aparecimento de metástases em ratos que ainda não tinham desenvolvido metástases e reduziu substancialmente o seu tamanho em ratos que já tinham desenvolvido metástases antes do tratamento.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Finalmente, em dados disponíveis sobre o cancro em populações humanas, observou-se que tumores do pulmão, bexiga e mama que têm a proteína CD36 têm pior taxa de sobrevivência.</p>
+                                                                  </td>
+                                                                </tr>
+
+                                                              </table>
+                                                              <br>
+                                                              <p>Principais conclusões do estudo e interpretação dos resultados</p>
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>A abundância da proteína CD36 parece ser um mecanismo relativamente geral nas metástases tumorais. No entanto, as evidências do estudo referem-se apenas aos tumores da cavidade bucal em ratos.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Uma linha de pesquisa derivada deste trabalho é o desenvolvimento de anticorpos contra a proteína CD36 para a prevenção ou tratamento de metástases. A sua utilidade em pacientes com cancro exigirá demonstração do seu efeito e segurança em estudos específicos (ensaios clínicos).</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>O efeito prejudicial de dietas ricas em gordura nas metástases observadas em ratos não pode ser extrapolado diretamente para populações humanas. Para isso, são necessários estudos especificamente desenvolvidos para avaliar tal efeito.</p>
+                                                                  </td>
+                                                                </tr>
+
+
+                                                              </table>
+                                                              <br>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Ácido palmítico: principais características, fontes e papel na dieta</h2>
+                                                              <br>
+                                                              <p>O ácido palmítico é um ácido gordo saturado que deve o seu nome ao principal componente do óleo de palma. Os ácidos gordos são os principais componentes das gorduras alimentares e são nutrientes fundamentais para o desenvolvimento e crescimento do organismo. Os ácidos gordos saturados são uma importante fonte de energia do organismo, são necessários para a absorção de vitaminas lipossolúveis e fazem parte das membranas das células.</p>
+                                                              <br>
+                                                              <p>O ácido palmítico é um dos ácidos gordos mais abundantes nos depósitos de gordura corporal, representando 20 a 25% do total. O ácido palmítico é também um dos mais abundantes na dieta dos países ocidentais; na Espanha, representa aproximadamente 6% de todas as calorias que consumimos diariamente.</p>
+                                                              <br>
+                                                              <p>Conforme mencionado, o ácido palmítico é o principal componente do óleo de palma (aproximadamente 44% do total dos ácidos gordos), mas também é encontrado em muitos outros alimentos. Está presente na carne, tanto vermelha quanto processada, em produtos lácteos, tanto no leite como em seus derivados, especialmente naqueles com maior teor de gordura, como manteiga e alguns queijos; e em geral na maioria dos alimentos que contêm gorduras, incluindo muitos óleos vegetais; por exemplo o azeite, embora o seu ácido gordo predominante seja oleico (monoinsaturado), contém 10-12% de ácido palmítico. No entanto, uma das principais fontes de ácido palmítico são os alimentos preparados.</p>
+                                                              <br>
+                                                              <p>Devido ao seu baixo custo de produção, bem como as suas propriedades de estabilidade e textura, o óleo de palma é usado em larga escala na indústria alimentar na produção de uma variedade de produtos de panificação, bolos, molhos, sopas, pratos pré-cozinhados.</p>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Ácido palmítico: possíveis efeitos na saúde</h2>
+                                                              <br>
+                                                              <p>Por ser um componente relativamente abundante na dieta habitual, é difícil avaliar os efeitos do ácido palmítico sobre a saúde. Grande parte dos estudos epidemiológicos avalia de uma forma global o efeito dos ácidos gordos saturados na saúde. A Organização Mundial de Saúde estabelece como uma quantidade recomendada de consumo de gorduras adultas, um intervalo entre 20-35% da ingestão calórica total, limitando a ingestão calórica de ácidos gordos saturados a um máximo de 10%.</p>
+                                                              <br>
+                                                              <p>Em geral, a limitação do consumo de ácidos gordos saturados baseia-se, sobretudo, nos possíveis efeitos adversos sobre as doenças cardiovasculares, embora os estudos mais recentes tendam a minimizar os resultados anteriores. De qualquer forma, alguns estudos mostraram que, comparado a outros óleos vegetais, como o azeite ou o óleo de girassol, o consumo de óleo de palma tem um perfil lipídico (colesterol total e LDL) ligeiramente menos favorável.</p>
+                                                              <br>
+                                                              <p>Em relação ao risco de cancro, existem muitos estudos experimentais que sugerem uma forte associação entre uma dieta rica em gordura e o risco de cancro. Por outro lado, tem havido muitos estudos epidemiológicos que tiveram em consideração essa associação; embora alguns estudos indiquem que pode haver um risco possível, especialmente para gorduras saturadas, há grande variabilidade de resultados. As revisões mais recentes feitas por especialistas não incluem o consumo elevado de gordura (de nenhum tipo) entre os fatores nutricionais que podem ser considerados como uma causa de cancro.</p>
+                                                              <br>
+                                                              <p>Quanto ao possível efeito do ácido palmítico em relação à progressão do cancro, os resultados de outros estudos experimentais são contraditórios. Por exemplo, ao contrário do efeito da promoção da metástase observada como objeto de trabalho deste artigo, observou-se que a ingestão de ácido palmítico pode reduzir a progressão de tumores de mama, mieloma múltiplo e cancro de fígado.</p>
+                                                              <br>
+                                                              <p>Os mesmos autores do artigo em questão mencionam que o efeito da proteína CD36 pode ser devido a outros mecanismos ou funções independentes de sua atividade como um recetor de membrana de ácido gordo. Além disso, embora pareça que o CD36 interage preferencialmente com o ácido palmítico, é um recetor de ácidos gordos de cadeia longa e, portanto, outros ácidos gordos poderiam ajudar a explicar o seu efeito.</p>
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+                                
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">É possível estabelecer recomendações sobre o consumo de ácido palmítico?</h2>
+                                                              <br>
+                                                              <p>Com base nos resultados do estudo, ainda não é possível estabelecer qualquer recomendação específica sobre gorduras na dieta como um elemento para prevenir a metástase. Levando em conta também o restante da evidência científica disponível, não é possível estabelecer qualquer recomendação específica sobre o consumo de ácido palmítico na prevenção ou tratamento do cancro. Em pacientes com cancro avançado, qualquer recomendação dietética deve levar em conta uma avaliação de seu estado nutricional por um profissional.</p>
+                                                              <br>
+                                                              <p>No entanto, em geral, reconhece-se que as principais orientações sobre nutrição na prevenção de cancro e dieta saudável envolvem uma dieta com um consumo relativamente baixo de ácido palmítico. Entre essas recomendações estão as seguintes:</p>
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Consumir menos de 500 gramas de carne vermelha por semana, com uma proporção mínima de carnes processadas. A gordura da carne, e especialmente a da carne processada, é uma das principais fontes de ácido palmítico.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Limitar o consumo de gorduras saturadas (o ácido palmítico é quantitativamente o principal ácido gordo saturado da dieta) de forma a que eles não excedam 10% da ingestão calórica diária total e substituí-los por gorduras polinsaturadas. A principal fonte de ácidos gordos polinsaturados é o peixe; isso reforça a recomendação anterior, que visa reduzir a carne como fonte de proteínas, gorduras e vitaminas de origem animal.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Recomenda-se um alto consumo de frutas e vegetais frescos e, ao mesmo tempo, uma redução nos alimentos altamente processados com alta densidade calórica. Uma das principais fontes de ácido palmítico são alimentos processados industrialmente, como muitos bolos, molhos, sopas, pratos pré-cozinhados.</p>
+                                                                  </td>
+                                                                </tr>
+
+                                                              </table>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <p>Antoni Agudo</p>
+                                    <p>Instituto Catalão de Oncologia</p>
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+                                                              <p style='text-align: center;'><span style='color:#21CFAC;'>Referências:</span></p>
+                                                              <br>
+                                                              <p><a href="http://www.nature.com/nature/journal/v541/n7635/abs/nature20791.html">Pascual G, Avgustinova A, Mejetta S, Martín M, Castellanos A, Attolini CS, et al. Targeting metastasis-initiating cells through the fatty acid receptor CD36. Nature 2017;541(7635):41-45.</a></p>
+                                                              <br>
+                                                              <p>Saadatian-Elahi M, Slimani N, Chajès V, Jenab M, Goudable J, Biessy C, et al. Plasma phospholipid fatty acid profiles and their association with Food intakes: results from a cross-sectional study within the European Prospective Investigation into Cancer and Nutrition. Am J Clin Nutr 2009;89(1):331-46.</p>
+                                                              <br>
+                                                              <p>Fattore E, Fanelli R. Palm oil and palmitic acid: a review on cardiovascular effects and carcinogenicity. Int J Food Sci Nutr 2013;64(5):648-59.</p>
+                                                              <br>
+                                                              <p><a href="http://www.fao.org/ag/agn/nutrition/docs/Fats%20and%20Fatty%20Acids%20Summary.pdf">Joint FAO/WHO Expert Consultation on Fats and Fatty Acids in Human Nutrition. Interim Summary of Conclusions and Dietary Recommendations on Total Fat & Fatty Acids. WHO HQ, 2008, Geneva, Switzerland.</a></p>
+                                                              <br>
+                                                              <p><a href="http://www.wcrf.org/sites/default/files/CUP-Summary-Report.pdf">World Cancer Research Fund International – Continuous Update Project. Cancer Prevention & Survival. CUP Summary Report, July 2016.</p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body>
+
+</html>

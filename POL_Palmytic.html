@@ -1,0 +1,797 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <p>Kwas palmitynowy i rak</p>
+
+                                                        <a href="https://mejorsincancer.org/2017/04/18/acido-palmitico-y-cancer/" style='color:#21CFAC;'>hiszpański</a>
+
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Kwas palmitynowy i rak</h2>
+                                                              <br>
+                                                              <p>Niedawno jedno z najbardziej prestiżowych czasopism naukowych opublikowało pracę katalońskich naukowców, która stanowi istotny wkład w wiedzę o komórkach powodujących przerzuty.
+                                                              </p>
+                                                              <br>
+                                                              <p>Proces powstawania przerzutów, podczas którego niektóre komórki oddzielają się od guza i wszczepiają w inne części ciała, jest odpowiedzialny za większość zgonów spowodowanych rakiem. Podsumowując, autorzy pracy wykazali, że białko CD36 ma zasadnicze znaczenie dla występowania oraz nasilania się przerzutów, opracowali strategię blokowania go i zaobserwowali, że przynajmniej u myszy tłuszcze spożywcze są zaangażowane w rozwój nowotworu.
+                                                              </p>
+                                                              <br>
+                                                              <p>Wyniki tej pracy spotkały się z szerokim odzewem medialnym. Co ciekawe, chociaż najbardziej istotnym odkryciem jest wiedza na temat mechanizmów molekularnych związanych z przerzutami, przesłaniem, które rozpowszechniło się najbardziej, jest to, że „tłuszcze spożywcze wpływają na raka”, a szczególnie podkreślenie roli kwasu palmitynowego w rozwoju i pojawieniu się przerzutów.
+                                                              </p>
+                                                              <br>
+                                                              <p>W tym poście dokonujemy przeglądu znaczenia i rzeczywistego zakresu tych badań, głównych cech kwasu palmitynowego i krytycznie analizujemy jego możliwy wpływ na zdrowie, a w szczególności jego potencjalną rolę w rozwoju nowotworu.
+                                                              </p>
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Podsumowanie badań nad CD36 i przerzutami komórek nowotworowych
+                                                              </h2>
+                                                              <br>
+                                                              <p>Badania oparto na drobiazgowej analizie próbek tkanek pobranych od pacjentów z rakiem jamy ustnej, które po wszczepieniu myszom rozwinęły się u nich w nowotworach jamy ustnej. Główne wyniki były następujące:</p>
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Autorzy zidentyfikowali grupę komórek o wysokiej zdolności do rozwoju przerzutów.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Jedną z głównych cech tych komórek jest to, że mają dużą ilość białka CD36 w swojej błonie. Białko to jest receptorem, który umożliwia przepływ tłuszczów wewnątrz komórki. Hipoteza autorów zakłada, że ​​tłuszcz ten dostarcza dużej ilości energii komórkom, które jej potrzebują.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Gdy komórki z dużą ilością CD36 przeszczepiono do guzów pozbawionych białka CD36, zaobserwowano późniejsze pojawienie się przerzutów.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>U mysz karmionych dietą wysokotłuszczową rozwinęło się więcej przerzutów, a ich liczba i rozmiar były związane z liczbą komórek z CD36. Ten sam efekt zaobserwowano w komórkach nowotworowych narażonych na kwas palmitynowy.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Leczenie dwoma przeciwciałami zdolnymi do neutralizacji białka CD36 całkowicie powstrzymało pojawianie się przerzutów u mysz, u których wcześniej ich nie stwierdzono i istotnie zmniejszyło ich rozmiar u myszy, u których rozwinęły się przerzuty przed leczeniem.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Wreszcie, w dostępnych danych na temat raka w populacjach ludzkich, zaobserwowano, że chorzy na guzy płuc, pęcherza moczowego i piersi, które mają białko CD36, mają mniejsze szanse przeżycia.</p>
+                                                                  </td>
+                                                                </tr>
+
+                                                              </table>
+                                                              <br>
+                                                              <p>Główne wnioski i interpretacja wyników
+                                                              </p>
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Obfitość białka CD36 wydaje się być dość ogólnym mechanizmem przerzutów nowotworu. Jednak dowody z badań odnoszą się tylko do guzów jamy ustnej u myszy.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Kierunek badań, wyznaczony tą pracą zmierza w stronę opracowania przeciwciał dla białka CD36 w celu zapobiegania wystąpieniu przerzutów lub ich leczenia. Ich przydatność dla pacjentów nowotworowych będzie wymagała udowodnienia ich skuteczności i bezpieczeństwa w ramach przyszłych badań klinicznych.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Szkodliwego wpływu diet wysokotłuszczowych na przerzuty obserwowane u myszy nie można ekstrapolować bezpośrednio na populacje ludzką. W tym celu niezbędne jest opracowanie specyficznych badań aby ocenić ich wpływ na ludzi.</p>
+                                                                  </td>
+                                                                </tr>
+
+
+                                                              </table>
+                                                              <br>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Kwas palmitynowy: główne cechy, źródła i znaczenie dla diety</h2>
+                                                              <br>
+                                                              <p>Kwas palmitynowy to nasycony kwas tłuszczowy, który swoją nazwę zawdzięcza temu, że stanowi główny składnik oleju palmowego. Kwasy tłuszczowe są głównymi składnikami tłuszczów spożywczych i są podstawowymi składnikami odżywczymi dla rozwoju i wzrostu organizmu. Nasycone kwasy tłuszczowe są ważnym źródłem energii w organizmie, są niezbędne do wchłaniania witamin rozpuszczalnych w tłuszczach i stanowią składową błon komórkowych.
+                                                              </p>
+                                                              <br>
+                                                              <p>Kwas palmitynowy jest jednym z najliczniejszych kwasów tłuszczowych w złogach tłuszczowych ciała, stanowiąc 20-25% całości. Kwas palmitynowy jest również jednym z najbardziej rozpowszechnionych w diecie wśród mieszkańców krajów zachodnich; w Hiszpanii stanowi około 6% wszystkich kalorii, które są tam codziennie spożywane.
+                                                              </p>
+                                                              <br>
+                                                              <p>Jak wspomniano, kwas palmitynowy jest głównym składnikiem oleju palmowego (około 44% wszystkich kwasów tłuszczowych), ale występuje również w wielu innych produktach spożywczych. Jest obecny w mięsie, zarówno czerwonym, jak i przetworzonym, w produktach mlecznych, zarówno w mleku, jak i jego pochodnych, zwłaszcza w tych o wyższej zawartości tłuszczu, takich jak masło i niektóre sery; i ogólnie w większości produktów spożywczych zawierających tłuszcze, w tym wiele olejów roślinnych; na przykład oliwa z oliwek, chociaż w niej przeważa kwas oleinowy (mono-nienasycony), zawiera 10-12% kwasu palmitynowego. Jednak jednym z głównych źródeł kwasu palmitynowego jest żywność przetworzona.
+                                                              </p>
+                                                              <br>
+                                                              <p>Ze względu na niskie koszty produkcji, a także konsystencję , olej palmowy jest stosowany na dużą skalę w przemyśle spożywczym do produkcji różnych rodzajów pieczywa, ciast, sosów, zup i dań gotowych.
+                                                              </p>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Kwas palmitynowy: potencjalne skutki zdrowotne</h2>
+                                                              <br>
+                                                              <p>Ponieważ jest to stosunkowo częsty składnik zwykłej diety, trudno jest ocenić wpływ kwasu palmitynowego na zdrowie. Duża część badań epidemiologicznych ocenia globalny wpływ nasyconych kwasów tłuszczowych na zdrowie. Światowa Organizacja Zdrowia ustala zalecaną ilość konsumpcji tłuszczu dla dorosłych w przedziale 20-35% całkowitego spożycia kalorii, ograniczając kaloryczne spożycie nasyconych kwasów tłuszczowych do maksymalnie 10%.
+                                                              </p>
+                                                              <br>
+                                                              <p>Ogólnie rzecz biorąc, ograniczenie spożycia nasyconych kwasów tłuszczowych opiera się przede wszystkim na ich ewentualnym niekorzystnym wpływie na choroby sercowo-naczyniowe, chociaż najnowsze badania mają tendencję do minimalizowania wcześniejszych odkryć. W każdym razie niektóre badania wykazały, że w porównaniu z innymi olejami roślinnymi, takimi jak olej oliwkowy lub słonecznikowy, spożycie oleju palmowego ma nieco mniej korzystny profil lipidowy (cholesterol całkowity i LDL).
+                                                              </p>
+                                                              <br>
+                                                              <p>Jeśli chodzi o ryzyko zachorowania na raka, istnieje wiele badań eksperymentalnych sugerujących silny związek między dietą wysokotłuszczową a ryzykiem raka. Z drugiej strony przeprowadzono wiele badań epidemiologicznych, które uwzględniały taki związek; Chociaż niektóre badania wskazują, że istnieje potencjalne ryzyko, szczególnie w przypadku tłuszczów nasyconych, to zmienność tych wyników jest duża. Najnowsze specjalistyczne przeglądy badań nie obejmują wysokiego spożycia tłuszczu (jakiegokolwiek rodzaju) wśród czynników odżywczych, traktowanych jako przyczynę raka.
+                                                              </p>
+                                                              <br>
+                                                              <p>W odniesieniu do potencjalnego wpływu kwasu palmitynowego na rozwój choroby nowotworowej wyniki innych badań eksperymentalnych są sprzeczne. Na przykład, w przeciwieństwie do skutków opisanych w prezentowanej pracy, w innej zaobserwowano, że przyjmowanie kwasu palmitynowego może zmniejszyć postęp nowotworów piersi, szpiczaka mnogiego i raka wątroby.
+                                                              </p>
+                                                              <br>
+                                                              <p>Ci sami autorzy tego artykułu wspominają, że wpływ białka CD36 może wynikać z innych mechanizmów lub funkcji niezależnych od jego aktywności jako receptora błonowego kwasu tłuszczowego. Ponadto, chociaż wydaje się, że CD36 bardziej oddziałuje z kwasem palmitynowym, jest receptorem dla długołańcuchowych kwasów tłuszczowych, a zatem inne kwasy tłuszczowe mogą pomóc wyjaśnić jego działanie.
+                                                              </p>
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+                                
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Czy można ustalić zalecenia dotyczące spożywania kwasu palmitynowego?</h2>
+                                                              <br>
+                                                              <p>Na podstawie wyników prezentowanego badania nie jest jeszcze możliwe ustalenie konkretnego zalecenia dotyczącego tłuszczów spożywczych jako czynnika zapobiegającego przerzutom. Ponadto, biorąc pod uwagę pozostałe dostępne dowody naukowe, nie jest możliwe ustalenie żadnego konkretnego zalecenia dotyczącego spożywania kwasu palmitynowego w zapobieganiu lub leczeniu raka. U pacjentów z zaawansowanym rakiem ocena sposobów ich sposobów odżywiania powinna być brana pod uwagę przez profesjonalistę w zaleceniach dietetycznych.
+                                                              </p>
+                                                              <br>
+                                                              <p>Jednakże uznaje się, że główne wytyczne dotyczące żywienia w zapobieganiu nowotworom i zdrowej diecie obejmują dietę o stosunkowo niskim zużyciu kwasu palmitynowego. Wśród tych zaleceń wymienia się, aby:
+                                                              </p>
+                                                              <table>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Spożywać mniej niż ½ kg. czerwonego mięsa w tygodniu, przy jak najmniejszej proporcji mięs przetworzonych. Tłuszcz mięsny, a zwłaszcza mięso przetworzone, jest jednym z głównych źródeł kwasu palmitynowego.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Ograniczać spożycie tłuszczów nasyconych (kwas palmitynowy jest ilościowo głównym nasyconym kwasem tłuszczowym w diecie), aby nie przekraczały 10% całkowitego dziennego spożycia kalorii i zastąp je tłuszczami wielonienasyconymi. Głównym źródłem wielonienasyconych kwasów tłuszczowych jest ryba.</p>
+                                                                  </td>
+                                                                </tr>
+                                                                <tr>
+                                                                  <td valign="top">
+                                                                    <p style='color:#21CFAC; font-size:24px;'>·</p>
+                                                                  </td>
+                                                                  <td>
+                                                                    <p>Spożywać dużo świeżych owoców i warzyw, przy jednoczesnym mniejszym spożyciu wysoko przetworzonej żywności o wysokiej gęstości kalorycznej. Jednym z głównych źródeł kwasu palmitynowego są produkty przetworzone przemysłowo, takie jak wiele produktów piekarniczych, ciast, sosów, zup i gotowych dań.</p>
+                                                                  </td>
+                                                                </tr>
+
+                                                              </table>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <p>Antoni Agudo</p>
+                                    <p>Institut Català d’Oncologia</p>
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+                                                              <p style='text-align: center;'><span style='color:#21CFAC;'>Przypisy biograficzne do artykułu:</span></p>
+                                                              <br>
+                                                              <p><a href="http://www.nature.com/nature/journal/v541/n7635/abs/nature20791.html">Pascual G, Avgustinova A, Mejetta S, Martín M, Castellanos A, Attolini CS, et al. Targeting metastasis-initiating cells through the fatty acid receptor CD36. Nature 2017;541(7635):41-45.</a></p>
+                                                              <br>
+                                                              <p>Saadatian-Elahi M, Slimani N, Chajès V, Jenab M, Goudable J, Biessy C, et al. Plasma phospholipid fatty acid profiles and their association with Food intakes: results from a cross-sectional study within the European Prospective Investigation into Cancer and Nutrition. Am J Clin Nutr 2009;89(1):331-46.</p>
+                                                              <br>
+                                                              <p>Fattore E, Fanelli R. Palm oil and palmitic acid: a review on cardiovascular effects and carcinogenicity. Int J Food Sci Nutr 2013;64(5):648-59.</p>
+                                                              <br>
+                                                              <p><a href="http://www.fao.org/ag/agn/nutrition/docs/Fats%20and%20Fatty%20Acids%20Summary.pdf">Joint FAO/WHO Expert Consultation on Fats and Fatty Acids in Human Nutrition. Interim Summary of Conclusions and Dietary Recommendations on Total Fat & Fatty Acids. WHO HQ, 2008, Geneva, Switzerland.</a></p>
+                                                              <br>
+                                                              <p><a href="http://www.wcrf.org/sites/default/files/CUP-Summary-Report.pdf">World Cancer Research Fund International – Continuous Update Project. Cancer Prevention & Survival. CUP Summary Report, July 2016.</p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body>
+
+</html>

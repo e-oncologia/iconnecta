@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <p>CZY NOWOTWÓR JEST CHOROBĄ GENETYCZNĄ?</p>
+
+                                                        <a href="https://mejorsincancer.org/2018/01/15/cancer-una-enfermedad-genetica/" style='color:#21CFAC;'>hiszpański</a>
+
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">CZY NOWOTWÓR JEST CHOROBĄ GENETYCZNĄ?
+                                                              </h2>
+                                                              <br>
+                                                              <p>W poniższym poście wyjaśnimy zależności między oddziaływaniem środowiska a mutacjami genetycznymi obserwowanymi u osób chorych na raka, a także różnicę między mutacjami genetycznymi spowodowanymi czynnikami zewnętrznymi a mutacjami odziedziczonymi od przodków.
+                                                              </p>
+                                                              <br>
+                                                              <p>Rak to choroba wieloczynnikowa, spowodowana kombinacją czynników środowiskowych i “uszkodzeniami” genów, które powodują zaburzenie mechanizmów kontrolujących podział komórek. W poniższym poście opowiedzieliśmy po krótce o dziedzicznym nowotworze na przykładzie Angeliny Jolie. Tym razem, możemy przywołać przykład piosenkarza Pau Donésa aby pomówić o raku, który nie został odziedziczony.
+                                                              </p>
+                                                              <br>
+                                                              <p>W 2017 roku opublikowano dokument pt. „Syrop na raka”, w którym  piosenkarz Pau Donés wyjaśnił proces leczenia raka jelita grubego, mając na celu pozbycie się piętna nowotworu. W filmie, Pau Donés opowiada o tym, że “ma onkogen BRAF, obecny u 5-8% pacjentów z rakiem jelita grubego”, ale nie podaje informacji o tym jak ten onkogen się pojawił i sugeruje, że jest bardzo ciężki do usunięcia.
+                                                              </p>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Czym różni się zmienność genetyczna o pochodzeniu dziedzicznym od zmienności pochodzenia niedziedzicznego?
+                                                              </h2>
+                                                              <br>
+                                                              <p>Każdy człowiek ma unikalny kod genetyczny, obecny we wszystkich komórkach w ciele, będący wynikiem zmienności (mutacji), które zachodziły i były przekazywane przez pokolenia. Jeśli chcesz się dowiedzieć więcej o kodzie genetycznym oraz zmienności genetycznej, przeczytaj ten aneks.
+                                                              </p>
+                                                              <br>
+                                                              <p>Zmienność genetyczna obecna we wszystkich komórkach naszego ciała to tzw. linia zarodkowa, ponieważ jest ona obecna już w komórkach rozrodczych (komórce jajowej czy plemnikach). Wszystkie komórki w organizmie mogą przejść mutacje, ale tylko te wyprodukowane w komórce jajowej czy plemnikach mogą być przekazywane następnemu pokoleniu i zachowane w populacji.
+                                                              </p>
+                                                              <br>
+                                                              <p>Mutacje, które zachodzą w komórkach somatycznych (nie rozrodczych) nazywane są somatyczną zmiennością genetyczną. Istnieją pewne czynniki zewnętrzne czy środowiskowe, które powodują, że komórki naszego ciała przechodzą wiele niepożądanych mutacji. Dla przykładu, konsumpcja lub wdychanie tytoniu oraz ekspozycja na ultrafiolet powodują mutacje naszego genomu i są to mutacje somatyczne. Obecnie, prowadzony jest międzynarodowy projekt badawczy ("Mutographs of Cancer"), którego celem jest odnalezienie mutacji somatycznych spowodowanych czynnikami uznawanymi za kancerogenne.
+                                                              </p>
+                                                              <br>
+                                                              <p  style="color: #21CFAC; margin-left: auto; margin-right: auto; width: 70%">“Oddziaływanie środowiska może powodować mutacje naszych komórek. Nagromadzenie tych nieodwracalnych genetycznych anomalii może prowadzić do powstawania raka”
+                                                              </p>
+                                                              <br>
+                                                              <p>Tutaj znajdziesz bardzo jasny przykład zależności między oddziaływaniem środowiskowym a mutacjami somatycznymi, prowadzącymi do powstawania raka.
+                                                              </p>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Somatyczna zmienność genetyczna a rak
+                                                              </h2>
+                                                              <br>
+                                                              <p>Mutacje komórek rozrodczych (a zatem przenoszonych pokoleniowo), które wiążą się z ryzykiem dziedziczenia nowotworu są bardzo rzadkie i odpowiadają za ok. 5% przypadków raka. Na przykład, dziedziczone mutacje w genach BRAC1 i BRAC2 prowadzące do raka piersi. W poniższym poście opowiemy o tym jak wykryć ryzyko dziedziczenia raka w rodzinie.
+                                                              </p>
+                                                              <br>
+                                                              <p>Dla odmiany, duża liczba somatycznych zmienności genetycznych wiąże się z powstawaniem raka. Każda nowa mutacja somatyczna obserwowana jest tylko w komórce zlokalizowanej w danym organie. Dopiero nagromadzenie tych zmian może rozpocząć proces rozmnażania zmutowanych komórek, co z kolei prowadzi do raka. Są to mutacje, które nie są przekazywane pokoleniowo i można je wykryć jedynie poprzez diagnozę molekularną w biopsji guza.
+                                                              </p>
+                                                              <br>
+                                                              <p>Tak było w przypadku raka jelita grubego u Pau Donésa, gdzie nagromadzenie mutacji somatycznych, zwłaszcza w genie BRAF spowodowało pojawienie się nowotworu. Gen BRAF odgrywa ważną rolę w procesie wzrostu i podziału komórek. Jego nieprawidłowe działanie może prowadzić do nadmiernego rozmnażania komórek, w tym również do powstawania raka. Mutacje tego genu stwierdza się w 80% czerniaków oraz w 5-8% nowotworów jelita grubego. Dlatego też jest on określany jako „onkogen”.
+                                                              </p>
+                                                              <br>
+                                                              <p>Podsumowując, można powiedzieć, że nowotwór rzadko jest chorobą genetyczną, rozumianą jako wynik predyspozycji genetycznych odziedziczonych po rodzicach. Jednak, wiele zmienności w mechanizmach komórkowych obserwowanych u osób z nowotworem, jest spowodowanych mutacjami genetycznymi, związanymi z czynnikami środowiskowymi. Opisywanie tych mutacji oraz odkrywanie w jaki sposób zmieniają one funkcjonowanie komórek, pomaga w diagnozie oraz indywidualnym leczeniu raka.
+                                                              </p>
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <p>Robert Carreras Torres</p>
+                                      <p>Genetic Epidemiology Group</p>
+                                      <p>International Agency for Research on Cancer (IARC)</p>
+
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body>
+
+</html>

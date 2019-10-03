@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <p>JAK PORADZIĆ SOBIE Z WIZYTĄ U ONKOLOGA
+                                                        </p>
+
+                                                        <a href="https://mejorsincancer.org/2018/03/13/afrontar-la-visita-al-oncologo/" style='color:#21CFAC;'>hiszpański</a>
+
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">JAK PORADZIĆ SOBIE Z WIZYTĄ U ONKOLOGA
+                                                              </h2>
+                                                              <h5 style="font-size: 16px; text-align: center; color: #21CFAC; letter-spacing: 1.2px; font-weight: 700;">7 kroków o których należy pamiętać mierząc się z wizytami lekarskimi w chorobie nowotworowej</h5>
+
+
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <p>Ten wpis jest skierowany szczególnie do członków rodziny lub najbliższych osoby chorej na raka. Opowiada o tym jak   uniknąć nadmiernego stresu. Może być również przydatny, jeśli jesteś już po diagnozie, tutaj poznasz 5 porad jak budować zdrowe doświadczenie psychologiczne po chorobie nowotworowej.
+                                                              </p>
+                                                              <br>
+                                                              <p>Kiedy jesteś pod wpływem takiej choroby jak rak, wizyty u lekarza stają się rutyną. Ale nie oznacza to, że przestajesz odczuwać ssanie w żołądku i grudę w gardle za każdym razem gdy idziesz na taką wizytę. To że chodzisz tam często, nie oznacza, że staje się to łatwiejsze lub przyjemniejsze. Jest to coś normalnego i nie możemy z tym za wiele zrobić, ponieważ musimy iść do lekarza. Podpowiemy ci jak sobie radzić z tymi wizytami, aby były dla nas pożyteczne, a zarazem mniej traumatyczne.
+                                                              </p>
+                                                              <br>
+                                                              <p>Poniżej przedstawiamy skrypt, który może w większym lub mniejszym stopniu posłużyć ci podczas wszystkich wizyt, ale stworzony jest szczególnie na potrzeby tych “ważnych”: tych, podczas których dowiadujesz się o wynikach testów lub o skuteczności ostatniego leczenia.
+                                                              </p>
+                                                              <br>
+                                                              <p>Dostosuj każdy punkt do potrzeb swoich i swoich bliskich, ponieważ każda osoba i każda choroba wymaga innych działań, ale w ogólnym zarysie:
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>1</span> Porozmawiajcie razem o tym co cię trapi</h2>
+                                                              <p>Kilka dni przed wizytą, usiądź przy kawie ze swoimi bliskimi. Wyłączcie na chwilę telefony i telewizor i poświęćcie 15 minut na rozmowę o tym co cię trapi. Dobrze wiedzieć, czego każde z was oczekuje po wizycie u lekarza, a zarazem podzielić się swoimi odczuciami, lękami i wątpliwościami. Starajcie się być szczerzy, ponieważ często próbujemy zakładać pewne rzeczy, które później, gdy o nich rozmawiamy, okazują się nie do końca oczywiste.
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>2</span> Zdecydujcie co chcecie wiedzieć, a czego nie</h2>
+                                                              <p>APo poprzedniej rozmowie, miejcie świadomość z jakimi informacjami musicie się zmierzyć na najbliższej diagnozie lub terapii i bądźcie konsekwentni.
+                                                              </p>
+                                                              <br>
+                                                              <p>W takim przypadku mówimy o czymś, że jest naprawdę znośne.
+                                                              </p>
+                                                              <br>
+                                                              <p>Każda osoba przyswaja informacje inaczej. Są osoby, które wolą mieć wyłożone wszystkie karty na stół, są też tacy, którzy wolą powoli, stopniowo dowiadywać się kolejnych rzeczy.
+                                                              </p>
+                                                              <br>
+                                                              <p>Nic się nie dzieje. Kluczem jest wzajemny szacunek oraz, przede wszystkim to, żebyś pamiętał, że jako bliska osoba chorego, jesteś zasadniczą częścią procesu chorobowego, to on/ona jest pacjentem i tak długo jak on/ona jest w stanie podejmować decyzje, to jej/jego opinie i decyzje są najważniejsze.
+                                                              </p>
+                                                              <br>
+                                                              <p>Prawdą również jest, że jeśli się nie zgadzacie, możecie po wspólnej wizycie przedyskutować wasze różnice zdań co do tego, jakich informacji powinniście zasięgnąć. Lekarze są przyzwyczajeni do takich sytuacji i nie zaskoczy ich to, tym bardziej jeśli oznajmicie, że jest to wasza wspólna decyzja.
+                                                              </p>
+                                                              <br>
+                                                              <p>W trakcie choroby nowotworowej, komunikacja w rodzinie bywa trudna. Czasami, to członkowie rodziny zatajają informacje przed ich ukochaną chorą osobą, myśląc że w ten sposób pomogą jej uniknąć cierpienia. Nazywamy to zmową milczenia. Jeśli chcesz zasięgnąć więcej informacji o tym jak radzić sobie w takiej sytuacji, polecam artykuł, w którym wyjaśnione zostało szczegółowo, że pacjent ma zarówno prawo wiedzieć jak i nie wiedzieć, a także podsumowano jak radzić sobie w tej sytuacji.
+                                                              </p>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>3</span> Stwórzcie listę swoich wątpliwości i zapytajcie o nie</h2>
+                                                              <p>Ile razy zdarzyło się, że wróciłeś/aś z wizyty lekarskiej z poczuciem, że nie udało ci się rozwiać wszystkich wątpliwości, które krążyły ci po głowie od tygodni? Na pewno, wiele.
+                                                              </p>
+                                                              <br>
+                                                              <p>Kiedy jesteśmy zdenerwowani, załamujemy się i trudno jest nam zachować trzeźwe myślenie. Ponadto, regularne wizyty lekarskie są tak intensywne i czasami tak krótkie, że masz czas tylko żeby wysłuchać tego co mówi lekarz i spróbować to zrozumieć (co nie jest takie proste!).
+                                                              </p>
+                                                              <br>
+                                                              <p>Aby uniknąć takiej sytuacji, kluczowe jest aby zapisać sobie listę wszystkiego o co chcesz spytać. Rozmowa, którą ostatnio odbyłeś/aś tym razem pójdzie gładko, ponieważ rozmawialiście o wielu istotnych kwestiach, które wzbudziły wątpliwości. Kiedy wszystko jest zapisane na liście, możesz swobodnie wyciągnąć ją przy lekarzu, który jest tam po to, żeby ci pomóc i z przyjemnością odpowie na twoje pytania.
+                                                              </p>
+                                                              <br>
+                                                              <p>Ostatnia porada dotycząca listy… możesz zapisać ją sobie na telefonie lub zrobić jej zdjęcie w wersji papierowej, ponieważ unikniesz nerwów, gdyby się okazało, że zapomniałeś/aś jej wziąć z domu.
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>4</span> Weź dzień wolny</h2>
+                                                              <p>Wiem, że nie możesz opuszczać pracy kiedy ci się podoba, ale są sytuacje, kiedy jest to konieczne. Kiedy masz „ważną” wizytę, postaraj się nie spieszyć. Lepiej jeśli wyjdziesz z domu, mając zapas czasu i dotrzesz na spokojnie. Gdyby coś nieoczekiwanego zdarzyło się na drodze lub gdybyś się zgubił(a), będziesz mieć czas na to, żeby sobie z tym poradzić bez stresu.
+                                                              </p>
+                                                              <br>
+                                                              <p>Wzięcie dnia wolnego pomoże ci również lepiej radzić sobie w momencie “po wizycie”, kiedy masz sporo informacji do przetworzenia lub emocji, którym musisz sprostać.
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>5</span> Daj sobie odrobinę “komfortu”</h2>
+                                                              <p>Jeśli wziąłeś/wzięłaś dzień wolny, wykorzystaj go.</p>
+                                                              <br>
+                                                              <p>Po ciężkich chwilach, jakimi są wizyty u lekarza, zasługujesz na nagrodę. Może to być pójście na herbatę lub kawę w jakimś miłym miejscu, wspólny posiłek w restauracji albo relaks w miłym otoczeniu. Bez względu na to czy informacje od lekarza były dobre czy złe, chwila komfortu pozwoli ci je łatwiej przetrawić.
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>6</span> Porozmawiajcie o tym jak poszła wizyta i jak się czuliście</h2>
+                                                              <p>Nawiązując do poprzedniego wątku, spróbujcie nie wychodzić z wizyty prosto do domu lub do pracy. Poświęćcie trochę czasu dla siebie po to, żeby porozmawiać o tym jak się czuliście, czego się dowiedzieliście, co było dla was zrozumiałe a co nie. Nie pozwólcie, żeby kierowały wami lęki i wątpliwości, a emocje zostały stłumione. Jeśli musicie płakać to płaczcie, a jeśli chcecie tylko pochodzić trzymając się za rękę, zróbcie to. Otwórzcie swoje serca i dzielcie się miłością, którą się darzycie.
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;"><span style='color:#21CFAC;'>7</span> Zdecydujcie wspólnie jakie kroki podjąć</h2>
+                                                              <p>Kiedy wyjdziecie z wizyty, zatrzymajcie się na chwilę i zastanówcie czy macie do podjęcia ważne decyzje. Być może nie, ale jeśli macie, zróbcie to, najlepiej naturalnie stawić im czoła. Może nadszedł czas, żeby powiedzieć reszcie rodziny, żeby zacząć myśleć o wózku inwalidzkim lub peruce. Może to przyprawić o zawrót głowy, ale musisz to zrobić, a lepiej zrobić to razem.
+                                                              </p>
+                                                              <br>
+                                                              <p>Kiedy ukochana osoba ma zdiagnozowanego raka, normalne jest uczucie zagubienia i cierpienia. Dlatego tak ważne jest, żebyś, jako członek rodziny, również dbał o siebie, aby wszystko szło gładko. Ostatecznie, każdy tworzy swój własny rytuał, nawet nie zdając sobie z tego sprawy. Oczywiście, jest to tylko porada, którą możesz dostosować do swojego życia i swojej bliskiej osoby. Wykorzystaj to co wydaje ci się obecnie właściwe, a resztę rad zachowaj na później. A ty, jak sobie radzisz z wizytami u lekarza?
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <p>Núria Jorba</p>
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body>
+
+</html>
