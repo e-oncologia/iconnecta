@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <a target='_blank' href="https://mejorsincancer.org/2015/07/24/la-actividad-fisica-en-la-prevencion-del-cancer/" class='link3' style='color:#21CFAC;'>em espanhol</a>
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Atividade física na prevenção do cancro</h2>
+                                                              <br>
+                                                              <p>Atividade física regular pode impedir a ocorrência de diferentes tipos de cancro. Como a atividade física é uma ação simples e acessível para prevenir o cancro, recomendamos que a pratique. Neste post, explicaremos a sua importância para a prevenção do cancro.
+                                                              </p>
+                                                              <p>Considera-se como atividade física qualquer movimento corporal produzido por contrações musculoesqueléticas que produza um gasto energético. Embora não sejam exatamente iguais, exercício e atividade física são usados ​​como sinônimos. Segundo dados recentes, entre 35% e 40% da população adulta não pratica atividade física no tempo livre e aproximadamente dois terços (66%) apresentam nível insuficiente de atividade física.
+                                                              </p>
+                                                              <img src="https://www.aulaeoncologia.org/draftfile.php/93272/user/draft/848961652/002.jpg" alt="" role="presentation" class="img-responsive atto_image_button_text-bottom" width="" height="">
+                                                              
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Tipos de atividade física
+                                                              </h2>
+                                                              <br>
+                                                              <table>
+                                                                <tbody><tr>
+                                                                  <td>
+                                                                    <p class="bold" style="color:#21CFAC; font-size:24px;">a&nbsp;</p>
+                                                                  </td>
+                                                                  <td colspan="2">
+                                                                      <p><span class="bold">Dependendo do ambito em que é realizado:</span>
+                                                                   </p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Atividade física ocupacional: energia gasta no trabalho.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Atividade física doméstica: trabalho doméstico e jardinagem.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Atividade de lazer, que inclui atividades recreativas (atividades não organizadas, como caminhadas ou ciclismo) e desportos individuais ou em equipa (incluindo atividades físicas num ginasio).</p></td>
+                                                                  </tr>
+                                        
+                                                                  <tr>
+                                                                    <td><br></td>
+                                                                    
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>
+                                                                      <p class="bold" style="color:#21CFAC; font-size:24px;">b&nbsp;</p>
+                                                                    </td>
+                                                                    <td colspan="2">
+                                                                        <p><span class="bold">De acordo com a intensidade, denominada nível de esforço de atividade física:</span></p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Atividade física leve: inclui trabalhos domésticos, compras ou jardinagem.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Atividade física moderada: atividades que exigem um esforço semelhante ao exigido ao caminhar rapidamente (aproximadamente 5 km/hora).</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Atividade física vigorosa: atividades que envolvem grandes grupos musculares, resultando num aumento na frequência cardíaca e respiratória e na transpiração corporal.</p></td>
+                                                                  </tr>
+                                                                  
+                                                                 
+                                                                  <tr>
+                                                                    <td colspan="3">
+                                                                      <br>
+                                                                    </td>
+                                                                  </tr>
+                                                                 
+                                                                </tbody></table>
+                                                                  <h2 style="font-size: 28px; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Porque a atividade física pode influenciar o aparecimento ou prevenção do cancro?
+                                                                  </h2>
+                                                                  <br>
+                                                                  <p>Foi demonstrado que o exercício físico causa uma redução nos níveis de algumas hormonas, como estrógenos e andrógenos. Exercício e atividade física também estão relacionados a uma menor concentração de insulina no sangue. Por outro lado, a atividade física reduz a inflamação crônica caracterizada por altos níveis de substâncias pró-inflamatórias, como as interleucinas. A atividade conjunta desses fatores (alteração hormonal, resistência à insulina e inflamação crônica) pode alterar o processo de proliferação e controle das células e, por fim, pode resultar no desenvolvimento de um tumor maligno.
+                                                                  </p>
+                                                                  <br>
+                                                                  <h2 style="font-size: 28px; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Que tumores podem ser evitados pela atividade física?
+
+                                                                  </h2>
+                                                                  <br>
+                                                                  <p>Embora a prática regular de exercício seja um hábito saudável e seja uma das recomendações gerais para a prevenção do cancro, os tumores nos quais um efeito benéfico da atividade física foi demonstrado com segurança são os seguintes:
+                                                                  </p>
+                                                                  <table>
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td></td>
+                                                                        <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                        <td><p>Cancro de cólon e reto: uma atividade física em tempo livre (atividades recreativas), pelo menos de 30 minutos por dia, reduz o risco de cancro colorretal em 12%. O efeito parece ser maior nos tumores encontrados no cólon do que naqueles encontrados no reto. Pesquisas mais recentes sugeridas, para reduzir o risco de cancro de cólon, são atividades físicas moderadas no tempo livre, de 30 a 60 minutos por dia.
+                                                                        </p>
+                                                                      </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td></td>
+                                                                        <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                        <td><p>Cancro de mama: como no cancro de cólon, parece que, reduzir o risco de cancro de mama requer uma atividade física de intensidade moderada de 4 a 7 horas por semana. A prática de exercícios de intensidade moderada, 4 horas por semana diminui o risco de cancro da mama em aproximadamente 6% em mulheres na pós-menopausa. O efeito benéfico da atividade física contra o cancro da mama parece ser menor em mulheres na pré-menopausa.
+                                                                        </p>
+                                                                      </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td></td>
+                                                                        <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                        <td><p>Cancro endometrial (útero): embora os estudos disponíveis não permitam quantificar a redução de risco exatamente como foi feito para tumores de cólon ou mama, estima-se que o risco de cancro endometrial seja reduzido em aproximadamente 25% ao comparar mulheres ativas com mulheres inativas.
+                                                                        </p>
+                                                                      </td>
+                                                                      </tr>
+                                                                  <tr>
+                                                                    <td><br></td>
+                                                                  </tr>
+                        
+                                                                  
+                                                              </tbody></table>
+
+
+                                                           
+                                                            
+                                                     
+                                                            
+                                                            
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                            
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+                                                              <p>
+                                                                <span style='color:#21CFAC;'>Antonio Agudo</span></p>
+
+                                                                <br />
+                                                                <p>Institut Català d'Oncologia</p>
+                                                                <br/>
+                                                              <br />
+                                                                <br />
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+ 
+
+</body>
+
+</html>

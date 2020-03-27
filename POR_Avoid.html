@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    body {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+    }
+
+    .tableContent img {
+      border: 0 !important;
+      display: block !important;
+      outline: none !important;
+    }
+
+    a {
+      color: #382F2E;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    ol,
+    li,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: normal;
+      background: transparent !important;
+      border: none !important;
+    }
+
+    @media only screen and (max-width:480px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    @media only screen and (max-width:540px) {
+
+      table[class="MainContainer"],
+      td[class="cell"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="specbundle"] {
+        width: 100% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 15px !important;
+      }
+
+      td[class="specbundle2"] {
+        width: 80% !important;
+        float: left !important;
+        font-size: 13px !important;
+        line-height: 17px !important;
+        display: block !important;
+        padding-bottom: 10px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+      }
+
+      td[class="spechide"] {
+        display: none !important;
+      }
+
+      img[class="banner"] {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      td[class="left_pad"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+    }
+
+    .contentEditable h2.big,
+    .contentEditable h1.big {
+      font-size: 26px !important;
+    }
+
+    .contentEditable h2.bigger,
+    .contentEditable h1.bigger {
+      font-size: 37px !important;
+    }
+
+    td,
+    table {
+      vertical-align: top;
+    }
+
+    td.middle {
+      vertical-align: middle;
+    }
+
+    a.link1 {
+      font-size: 13px;
+      color: #351B9E;
+      line-height: 24px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .link2 {
+      color: #ffffff;
+      border-top: 10px solid #21CFAC;
+      border-bottom: 10px solid #21CFAC;
+      border-left: 18px solid #21CFAC;
+      border-right: 18px solid #21CFAC;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #21CFAC;
+    }
+
+    .link3 {
+      color: #555555;
+      border: 1px solid #cccccc;
+      padding: 10px 18px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      background: #ffffff;
+    }
+
+    .link4 {
+      color: #351B9E;
+      line-height: 24px;
+    }
+
+    h2,
+    h1 {
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #AAAAAA;
+    }
+
+    .contentEditable li {}
+
+    .appart p {}
+
+    .bgItem {
+      background: #ffffff;
+    }
+
+    .bgBody {
+      background: #ffffff;
+    }
+
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: 100%;
+      clear: both;
+      display: block;
+      float: none;
+    }
+  </style>
+
+
+  <script type="colorScheme" class="swatch active">
+    {
+    "name":"Default",
+    "bgBody":"ffffff",
+    "link":"27A1E5",
+    "color":"AAAAAA",
+    "bgItem":"ffffff",
+    "title":"444444"
+}
+</script>
+
+
+</head>
+
+<body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"
+  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0"
+  toppadding="0" leftpadding="0">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td>
+          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
+            <!-- =============== START HEADER =============== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" width="20">&nbsp;</td>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="movableContentContainer">
+
+                                  <!-- =============== END HEADER =============== -->
+                                  <!-- =============== START BODY =============== -->
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+
+                                                  <td class="specbundle">
+                                                    <div class='contentEditableContainer contentTextEditable'>
+                                                      <div class='contentEditable' style='text-align: right;'>
+                                                        <a target='_blank' href="https://mejorsincancer.org/2016/02/18/como-evitar-el-cancer-de-mama/" class='link3' style='color:#21CFAC;'>em espanhol</a>
+                                                        <br>
+                                                      </div>
+                                                    </div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="40"></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                  <td valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; text-align: center; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Como evitar o cancro da mama?</h2>
+                                                              <br>
+                                                              <p>Certamente conhece alguma mulher que tem ou teve cancro de mama.
+                                                              </p>
+                                                              <p>Não é incomum, pois é o tumor mais frequente em mulheres (mais de 1,5 milhões de casos por ano), e nas últimas décadas o número de casos aumentou.
+                                                              </p>
+                                                              <p>Leia os conselhos no final do post para descobrir como reduzir a chance de desenvolver cancro da mama em até 30%.
+                                                              </p>
+                                                              
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td width="40" valign="top">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; color: #656565; letter-spacing: 1.2px; font-weight: 700;">Quais sāo os factores de risco para o cancro da mama?
+                                                              </h2>
+                                                              <br>
+                                                              <p>Note-se que o cancro da mama é mais frequente nos países desenvolvidos. Isso pode ser devido ao fato de que alguns dos fatores de risco, ou seja, as condições que aumentam a probabilidade de ter cancro de mama, estarem associados ao estilo de vida ocidental.
+                                                              </p>
+                                                              <p>Existem dois tipos de fatores de risco, dependendo da nossa capacidade de alterá-los e, assim, reduzir a probabilidade de tê-lo:
+                                                              </p>
+                                                              <br>
+
+                                                              <p><b>Os que nāo podem ser modificados sāo:</b>
+                                                              </p>
+                                                              <table>
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Ser mulher, embora os homens também possam ter cancro de mama.
+                                                                    </p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Idade: A probabilidade de ter cancro da mama aumenta com a idade, principalmente após os 55 anos de idade.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Herança genética, tem parentes de primeiro grau que tiveram cancro da mama ou pertencem a uma família com risco genético.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>efeito das hormonas: a mama é exposta ao efeito combinado de várias hormonas femininas em cada ciclo menstrual. Quanto mais ciclos menstruais uma mulher tiver ao longo da vida, maior a probabilidade de ela ter cancro de mama. Ter o primeiro período antes dos 12 anos, ter menopausa tardia (depois dos 55 anos) ou não ter filhos, são fatores que aumentam a probabilidade de ter cancro de mama, porque o número de ciclos menstruais aumenta. Também afeta ter o primeiro filho após os 35 anos de idade.
+                                                                    </p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Algumas características da mama: A densidade da mama é determinada nas mamografias e é classificada em 4 níveis, variando de gordurosa a muito densa. Ter seios muito densos aumenta o risco de ter cancro em relação à gordura.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Já ter tido cancro de mama ou algumas doenças mamárias de alto risco, como hiperplasia ductal atípica. Mulheres com esse tipo de formação apresentam sempre maior risco de cancro de mama e devem seguir medidas preventivas e de detecção precoce mais intensas do que a população em geral.</p></td>
+                                                                  </tr>
+                                                                </tbody></table>
+                                                                <br>
+                                                                <p><b>Fatores que podem ser modificados e que são a base da prevenção:</b>
+                                                                </p>
+
+
+
+
+
+                                                                <table>
+                                                                  <tbody>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Obesidade e excesso de peso aumentam a probabilidade de ter cancro da mama após a menopausa. Parece que o risco aumenta quando o aumento de peso ocorre ao longo da vida adulta, ou seja, entre os 18 e 50 ou 60 anos.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Vida sedentária e falta de exercício físico aumentam o risco de cancro da mama em 6% a 13%, especialmente o que afeta mulheres pós-menopáusicas.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>álcool. O risco aumenta em cerca de 10% nas mulheres que consomem 1 ou 2 bebidas por dia em comparação com os que não bebem, e até 50% nas mulheres que consomem 3-4 bebidas por dia.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Tabaco. Estudos recentes sugerem que fumar antes de ter filhos (especialmente na adolescência) aumenta o risco de cancro de mama. Os agentes do cancro de tabaco, especialmente os benzopirenos, atuam diretamente nas células mamárias que não atingiram a maturidade, o que ocorre com a gravidez. Além disso, fumar em qualquer estágio da vida é um fator de risco para o desenvolvimento de diferentes tipos de cancro, incluindo cancro de mama.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Ter terapia hormonal para sintomas da menopausa, especialmente em tratamentos prolongados (quanto mais tempo a terapia hormonal, maior o risco). No entanto, deve-se notar que nem todos os tratamentos significam correr riscos. O seu ginecologista pode guiá-lo.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>A radiação ionizante, como a radioterapia no peito para tratamento do cancro, aumenta o risco de cancro de mama.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td><p style="color:#21CFAC; font-size:24px;">·</p></td>
+                                                                    <td><p>Alguns poluentes ambientais chamados desreguladores endócrinos têm sido associados à ocorrência de cancro de mama em animais experimentais. Alguns exemplos são o bisfenol A, presente no plástico de alguns recipientes para alimentos, dioxinas e PFOA ou C8, presentes em alguns antiaderentes, como teflon ou impermeabilização, como gore-tex até 2013, quando foi removido.</p></td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td><br></td>
+                                                                    
+                                                                  </tr>
+
+                                                                </tbody></table>
+
+                                                               
+
+                                                                  
+                                                     
+                                                            
+                                                            
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                
+                                             
+
+                                                                <h2 style="font-size: 28px; color: #656565; letter-spacing: 1.2px; font-weight: 700;">O cancro da mama pode ser prevenido?
+
+                                                                </h2>
+                                                                <br>
+
+                                                                <p>Durante muito tempo, considerou-se que o cancro de mama não poderia ser prevenido. Portanto, todos os esforços concentraram-se na detecção precoce com mamografias.
+                                                                </p>
+                                                                <p>Atualmente, além de detectá-lo precocemente com mamografias, tentamos evitá-lo controlando os fatores de risco modificáveis ​​que explicamos anteriormente.
+                                                                </p>
+                                                                <p>Assim, embora o controle desses fatores de risco não impeça totalmente o cancro da mama, é possível reduzir a probabilidade de que ele apareça.
+                                                                </p>
+
+                                                                  
+                                                     
+                                                            
+                                                            
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                            
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height='40'></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td height='25'></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable'>
+                                                              <h2 style="font-size: 28px; color: #656565; letter-spacing: 1.2px; font-weight: 700;">5 recomendações para prevenir o cancro da mama:</h2>
+                                                              <br>
+
+                                                              <table>
+                                                                <tbody>
+                                                                    <tr>
+                                                                      <td><p style="color:#21CFAC">1</p></td>
+                                                                      <td><p>Coma saudável. Siga uma dieta variada e equilibrada, rica em azeite (dieta mediterrânea).</p></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td><p style="color:#21CFAC">2</p></td>
+                                                                      <td><p>Mova-se. Faça exercícios físicos entre 4 e 7 horas por semana.</p></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td><p style="color:#21CFAC">3</p></td>
+                                                                      <td><p>Cuidado com o álcool. É melhor se não beber álcool. Se não pode, no máximo 1 bebida por dia.</p></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td><p style="color:#21CFAC">4</p></td>
+                                                                      <td><p>Não fume. Também estará prevenindo outros tipos de cancro, como o cancro do pulmão.</p></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td><p style="color:#21CFAC">5</p></td>
+                                                                      <td><p>As hormonas são importantes. Se possível, amamente por pelo menos 6 meses. Evite terapia de reposição hormonal.</p></td>
+                                                                    </tr>
+                                                                    
+                                                                </tbody>
+                                                              </table>
+
+                                                              
+
+                                                                  
+                                                     
+                                                            
+                                                            
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td height='24'></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="40">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+
+
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+
+
+                                        <tr>
+                                          <td height='40' colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td colspan="3">
+                                            <hr style='height:1px;background:#DDDDDD;border:none;'>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                  <!-- =============== END BODY =============== -->
+                                  <!-- =============== START FOOTER =============== -->
+
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td height="48"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                  <td>
+                                                    <table width="100%" cellpadding="0" cellspacing="0" align="center">
+                                                      <tr>
+                                                        <td>
+                                                          <div class='contentEditableContainer contentTextEditable'>
+                                                            <div class='contentEditable' style='color:#AAAAAA;'>
+                                                              <p>
+                                                                <span style='color:#21CFAC;'>Carmen Vidal</span></p>
+                                                                <br>
+                                                                <p>Programa de Prevención y Control del Cáncer</p>
+                                                                <br />
+                                                                <p>Institut Català d'Oncologia</p>
+                                                                <br/>
+                                                              <br />
+                                                                <br />
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                  <td valign="top" width="90" class="spechide">&nbsp;</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                  </div>
+                                  <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
+
+
+
+                                    <!-- =============== END FOOTER =============== -->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="20">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+
+</body>
+
+</html>
